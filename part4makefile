@@ -1,6 +1,0 @@
-all:
-	touch test.db
-	gcc client.c -o client -lpthread
-	gcc server.c -o server -lpthread -lsqlite3
-clean:
-	rm -rf server client test.db
